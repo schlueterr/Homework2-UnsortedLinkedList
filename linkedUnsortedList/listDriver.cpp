@@ -120,6 +120,9 @@ int main()
 	    outFile << "number of greater elements " << greaterThan << endl;
 
 	}
+  // This is where the homework says to edit the SplitLists command
+  // Right now, it is just a copy of the CountList command
+  // The command below is just SplitList, not SplitLists
     else if (command == "SplitLists") {
     		item.Initialize(2);
     		listToCount.PutItem(item);
