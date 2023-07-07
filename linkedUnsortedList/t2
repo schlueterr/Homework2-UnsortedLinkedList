@@ -1,8 +1,0 @@
-GetLength
-PutItem 5
-PutItem 7
-PutItem 6
-PutItem 9
-PrintList
-CountList
-Quit
