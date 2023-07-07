@@ -213,6 +213,8 @@ void PrintString(ofstream& dataFile, string& msg) {
 	dataFile << msg << endl;
 }
 
+
+// Need to modify this to separate lists with spaces 
 void PrintList(ofstream& dataFile, UnsortedType& list)
 // Pre:  list has been initialized.      
 //       dataFile is open for writing.   
