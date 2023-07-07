@@ -123,29 +123,13 @@ int main()
   // This is where the homework says to edit the SplitLists command
   // Right now, it is just a copy of the CountList command
   // The command below is just SplitList, not SplitLists
+
+  // Test cases should 
+  // 1. Print the initial list
+  // 2. Print out the key (the number which the list is split)
+  // 3. Print out the resulting two lists that are formed after the split
     else if (command == "SplitLists") {
-    		item.Initialize(2);
-    		listToCount.PutItem(item);
-    		item.Initialize(5);
-    	    listToCount.PutItem(item);
-    	    item.Initialize(9);
-    	    listToCount.PutItem(item);
-    	    item.Initialize(14);
-    	    listToCount.PutItem(item);
-    	    item.Initialize(20);
-    	    listToCount.PutItem(item);
-    	    item.Initialize(27);
-    	    listToCount.PutItem(item);
-    	    pivotItem.Initialize(pivotNumber);
-
-    	    string msg = "Testing CountLists\n";
-    	    PrintString(outFile, msg);
-    	    PrintList(outFile, listToCount);
-    	    outFile << "Pivot number " << pivotNumber << endl;
-
-    	    listToCount.CountLists(listToCount, pivotItem, lessThanOrEqual, greaterThan );
-    	    outFile << "number of less or equal elements " << lessThanOrEqual << endl;
-    	    outFile << "number of greater elements " << greaterThan << endl;
+    		
 
     	}
 	else if (command == "SplitList"){
