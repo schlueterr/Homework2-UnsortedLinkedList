@@ -1,0 +1,43 @@
+testingrun1
+Length is 0
+5 is in list
+7 is in list
+6 is in list
+9 is in list
+Print Length: 4
+9 6 7 5 
+1 is in list
+Print Length: 5
+1 9 6 7 5 
+4 not in list.
+5 found in list.
+9 found in list.
+10 not in list.
+List is not full.
+5 is deleted
+List is not full.
+1 is deleted
+6 is deleted
+9 is deleted
+Print Length: 1
+7 
+Print Length: 0
+
+Testing CountLists
+
+Print Length: 6
+27 20 14 9 5 2 
+Pivot number 10
+number of less or equal elements 3
+number of greater elements 3
+Initial List: Print Length: 5
+20 14 9 5 2 
+
+list split at key: 5
+
+List 1:  
+Print Length: 2
+2 5 
+List 2:  
+Print Length: 3
+9 14 20 
