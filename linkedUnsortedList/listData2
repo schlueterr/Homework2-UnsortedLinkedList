@@ -9,3 +9,5 @@ GetLength
 PutItem 8
 DeleteItem 8
 SplitLists 12
+PutItem 9
+Quit

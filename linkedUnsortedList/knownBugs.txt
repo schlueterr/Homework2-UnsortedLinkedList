@@ -1,0 +1,5 @@
+1) In the listData2 file, the command "SplitLists 12" is not registering correctly when called. 
+    Its working for the SplitLists, but its recognizing 12 as its own command which is registering as "Command 12 is not a valid command" 
+    !!! Need to figure out how to make it register 12 as part of the SplitLists command !!!
+
+- Still need to finish writing out the SplitLists command. So far its just printing out the initial list - 

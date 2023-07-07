@@ -134,6 +134,8 @@ int main()
         PrintList(outFile, list);
         outFile << endl;
 
+        inFile >> number;
+
         // Ended up not finishing this, still need to add the implementaiton for the splitLists function
     	}
 	else if (command == "SplitList"){
