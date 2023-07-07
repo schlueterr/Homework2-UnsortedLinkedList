@@ -1,0 +1,8 @@
+t1
+Initial List: Print Length: 520 14 9 5 2 
+
+list split at key: 5
+List 1:  
+Print Length: 0
+List 2:  
+Print Length: 0

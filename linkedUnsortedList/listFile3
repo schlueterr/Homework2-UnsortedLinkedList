@@ -1,0 +1,26 @@
+t5
+Length is 0
+5 is in list
+7 is in list
+6 is in list
+9 is in list
+9 6 7 5 
+1 is in list
+1 9 6 7 5 
+4 not in list.
+5 found in list.
+9 found in list.
+10 not in list.
+List is not full.
+5 is deleted
+List is not full.
+1 is deleted
+6 is deleted
+9 is deleted
+7 
+
+Testing CountLists
+
+20 14 9 5 2 
+number of less or equal elements 3
+number of greater elements 2
