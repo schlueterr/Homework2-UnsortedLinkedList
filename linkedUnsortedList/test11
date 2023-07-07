@@ -1,0 +1,16 @@
+testing
+Length is 0
+6 is in list
+7 is in list
+12 is in list
+18 is in list
+24 is in list
+Print Length: 5
+24 18 12 7 6 
+Length is 5
+8 is in list
+8 is deleted
+Testing SplitLists
+Initial List: Print Length: 5
+24 18 12 7 6 
+

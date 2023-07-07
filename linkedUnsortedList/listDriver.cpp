@@ -129,8 +129,10 @@ int main()
   // 2. Print out the key (the number which the list is split)
   // 3. Print out the resulting two lists that are formed after the split
     else if (command == "SplitLists") {
-    		
-
+    		outFile << "Testing SplitLists\n";
+        outFile << "Initial List: ";
+        PrintList(outFile, list);
+        outFile << endl;
     	}
 	else if (command == "SplitList"){
 	      inFile >> number;
@@ -209,8 +211,8 @@ void PrintList(ofstream& dataFile, UnsortedType& list)
   int length;
   ItemType item;
   string space = " ";
-  list.ResetList();
-  length = list.GetLength();
+  list.ResetList(); // Sets current pos to null
+  length = list.GetLength(); // Gets length of list and stores in length
   dataFile << "Print Length: ";
   dataFile << length << endl;
   for (int counter = 1; counter <= length; counter++)

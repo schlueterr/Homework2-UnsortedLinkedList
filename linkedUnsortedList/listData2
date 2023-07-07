@@ -1,0 +1,11 @@
+GetLength
+PutItem 6
+PutItem 7
+PutItem 12
+PutItem 18
+PutItem 24
+PrintList
+GetLength
+PutItem 8
+DeleteItem 8
+SplitLists 12
