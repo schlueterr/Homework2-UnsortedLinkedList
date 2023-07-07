@@ -25,7 +25,7 @@ int main()
   int number;
   ItemType item;
   ItemType pivotItem;
-  ItemType itemSplit;
+  ItemType itemSplit; // item to be split on
   UnsortedType list;
   UnsortedType list1;
   UnsortedType list2;
@@ -135,12 +135,15 @@ int main()
         outFile << endl;
 
         inFile >> number;
+        itemSplit.Initialize(number); // itemSplit initialized to the value of number
+        // The above line still didnt fix the bug of the number not being recognized
+        // as a argument for the splitLists function in listData2 
 
         // Ended up not finishing this, still need to add the implementaiton for the splitLists function
     	}
 	else if (command == "SplitList"){
 	      inFile >> number;
-	      itemSplit.Initialize(number);
+	      itemSplit.Initialize(number); // itemSplit initialized to the value of number
 	      itemSplit = list.GetItem(itemSplit, found);
 
 
