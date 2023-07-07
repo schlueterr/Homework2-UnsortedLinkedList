@@ -3,3 +3,7 @@
     !!! Need to figure out how to make it register 12 as part of the SplitLists command !!!
 
 - Still need to finish writing out the SplitLists command. So far its just printing out the initial list - 
+
+2) Added the itemSplit.Initialize(number) function to the SplitLists function
+    Still did not fix the issue that the SplitLists command is not registering correctly
+        Still, needing to build out the SplitLists function even more
