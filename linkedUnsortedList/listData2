@@ -3,6 +3,7 @@ PutItem 6
 PutItem 7
 PutItem 12
 PutItem 18
+GetItem 6
 PutItem 24
 PrintList
 GetLength

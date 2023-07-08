@@ -1,0 +1,15 @@
+1) SplitList is printing out a list that is hardcoded
+    into the command. 
+
+1.1) Im not sure just yet if the HW wants to split the list given
+    the listData data, or if it wants to split the list 
+    that is hardcoded into the command. 
+
+    Awaiting on the professors word on this.
+
+1.2) If the list is to be split based on the hardcoded value
+    then the first command SplitList needs to be slightly modified
+
+1.2.1) If not, then the other command SplitLists needs to be 
+        modified to take in the listData values as a list 
+        and split it based on the data given, not the hardcoded value
