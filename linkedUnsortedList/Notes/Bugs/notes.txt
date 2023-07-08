@@ -1,6 +1,9 @@
 1) SplitList is printing out a list that is hardcoded
     into the command. 
 
+!!! Per Professor, the list that is to be split is the one hardcoded into
+      the command. In updated HW assignment, the numbers to be used are given !!!
+
 1.1) Im not sure just yet if the HW wants to split the list given
     the listData data, or if it wants to split the list 
     that is hardcoded into the command. 
