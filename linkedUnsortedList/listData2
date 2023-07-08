@@ -9,6 +9,6 @@ PrintList
 GetLength
 PutItem 8
 DeleteItem 8
-SplitLists 12
+SplitLists
 PutItem 9
 Quit

@@ -136,6 +136,7 @@ int main()
 
         inFile >> number;
         itemSplit.Initialize(number); // itemSplit initialized to the value of number
+        itemSplit = list.GetItem(itemSplit, found); // itemSplit is now the item in the list with the value of number
         // The above line still didnt fix the bug of the number not being recognized
         // as a argument for the splitLists function in listData2 
 
