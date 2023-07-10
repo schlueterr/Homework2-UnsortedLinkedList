@@ -30,14 +30,16 @@ Print Length: 6
 Pivot number 10
 number of less or equal elements 3
 number of greater elements 3
-Initial List: Print Length: 5
-20 14 9 5 2 
+Initial List: Print Length: 11
+22 1 25 11 3 20 27 2 14 5 9 
 
-list split at key: 5
+list split at key: 11
 
 List 1:  
-Print Length: 2
-2 5 
+Print Length: 6
+9 5 2 3 11 1 
 List 2:  
-Print Length: 3
-9 14 20 
+Print Length: 5
+14 27 20 25 22 
+
+

@@ -149,16 +149,28 @@ int main()
 	      itemSplit = list.GetItem(itemSplit, found);
 
 
-	      	item.Initialize(2);
+	      	item.Initialize(9);
 	      	listSplitTest.PutItem(item);
 			item.Initialize(5);
 			listSplitTest.PutItem(item);
-			item.Initialize(9);
-			listSplitTest.PutItem(item);
 			item.Initialize(14);
 			listSplitTest.PutItem(item);
-			item.Initialize(20);
+			item.Initialize(2);
 			listSplitTest.PutItem(item);
+			item.Initialize(27);
+			listSplitTest.PutItem(item);
+      item.Initialize(20);
+      listSplitTest.PutItem(item);
+      item.Initialize(3);
+      listSplitTest.PutItem(item);
+      item.Initialize(11);
+      listSplitTest.PutItem(item);
+      item.Initialize(25);
+      listSplitTest.PutItem(item);
+      item.Initialize(1);
+      listSplitTest.PutItem(item);
+      item.Initialize(22);
+      listSplitTest.PutItem(item);
 
 
 	      outFile << "Initial List: ";

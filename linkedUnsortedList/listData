@@ -20,6 +20,6 @@ PrintList
 MakeEmpty
 PrintList
 CountList
-SplitList 5
+SplitList 11
 Error
 Quit
