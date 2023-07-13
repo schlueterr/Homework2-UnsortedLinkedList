@@ -169,8 +169,6 @@ ItemType UnsortedType::GetNextItem()
 void UnsortedType::splitLists(ItemType item, UnsortedType &list1,
                               UnsortedType &list2)
 {
-
-
     bool moreToSearch;
     NodeType* location;
 
@@ -197,8 +195,23 @@ void UnsortedType::splitLists(ItemType item, UnsortedType &list1,
       location = location->next;
       moreToSearch = (location != NULL);
     }
-
+    
 }
+
+void UnsortedType::reverseLists(){
+  NodeType* current = listData;
+  NodeType* previous = NULL;
+  NodeType* next = NULL;
+
+  while(current != NULL){
+    next = current->next;
+    current->next = previous;
+    previous = current;
+    current = next;
+  }
+  listData = previous;
+}
+
 
 UnsortedType::~UnsortedType()
 // Post: List is empty; all items have been deallocated.

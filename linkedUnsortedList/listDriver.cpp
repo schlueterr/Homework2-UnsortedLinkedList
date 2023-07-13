@@ -180,20 +180,12 @@ int main()
 	      itemSplit.Print(outFile);
 	      outFile << endl;
 
-	      //The listSplitTest has the ll array in it.
-	      //The splitLists is correctly called.
-
-	      /*
-	      outFile << "List 1:  " << endl;
-	      PrintList(outFile, list1);
-
-	      outFile << "List 2:  " << endl;
-	      PrintList(outFile, list2);
-	       */
 
 	      listSplitTest.splitLists(itemSplit, list1, list2);
+	      list1.reverseLists();
+        list2.reverseLists();
+        outFile << endl;
 
-	      outFile << endl;
 
 	      outFile << "List 1:  " << endl;
 	      PrintList(outFile, list1);
