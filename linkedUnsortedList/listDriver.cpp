@@ -67,6 +67,10 @@ int main()
       item.Print(outFile);
       outFile << " is in list" << endl;
     }
+    if (command == "Reverse"){
+      list.reverseLists();
+      outFile << " Reverse ran" << endl;
+    }
     else if (command == "DeleteItem")
     {
       inFile >> number;
