@@ -120,29 +120,7 @@ int main()
 	    outFile << "number of greater elements " << greaterThan << endl;
 
 	}
-  // This is where the homework says to edit the SplitLists command
-  // Right now, it is just a copy of the CountList command
-  // The command below is just SplitList, not SplitLists
 
-  // Test cases should 
-  // 1. Print the initial list
-  // 2. Print out the key (the number which the list is split)
-  // 3. Print out the resulting two lists that are formed after the split
-    else if (command == "SplitLists") {
-    		outFile << "Testing SplitLists\n";
-        outFile << "Initial List: ";
-        PrintList(outFile, list);
-        outFile << endl;
-
-        inFile >> number;
-        itemSplit.Initialize(number); // itemSplit initialized to the value of number
-                                      // This is the number that the list is split on 
-        itemSplit = list.GetItem(itemSplit, found); // itemSplit is now the item in the list with the value of number
-        // The above line still didnt fix the bug of the number not being recognized
-        // as a argument for the splitLists function in listData2 
-
-        // Ended up not finishing this, still need to add the implementaiton for the splitLists function
-    	}
 	else if (command == "SplitList"){
 	      inFile >> number;
 	      itemSplit.Initialize(number); // itemSplit initialized to the value of number

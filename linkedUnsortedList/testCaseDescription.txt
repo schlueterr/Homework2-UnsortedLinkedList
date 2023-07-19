@@ -1,0 +1,111 @@
+Name: Braden Schlueter
+Course: CS3358 Sum 2023
+Assignment: Homework 1
+07/20/2023
+    
+-   The source code to these commands/cases can be found in the unsorted.cpp file
+     With the exception of the PrintList case, which is defined and implemented
+     in the listDriver.cpp file
+
+- These cases/commands can be found in the listData file
+
+*******************************************************************************
+Test Case 1:
+    PutItem
+Description: 
+-   This case will insert the item that is passed as a parameter into the front
+     of the list
+-   In the driver test case, will print "item is in list"
+*******************************************************************************
+
+*******************************************************************************
+
+Test Case 2:
+    DeleteItem
+Description:
+-   This case will parse through the list and delete the item that is passed 
+     as a parameter
+-   In the driver test case, will print "item is deleted" 
+*******************************************************************************
+
+*******************************************************************************
+Test Case 3:
+    GetItem
+Description:
+-   This case will parse through the list and return a copy of item that is 
+     passed as a parameter
+-   In the driver test case, if not found it will print "item not in list."
+*******************************************************************************
+
+*******************************************************************************
+Test Case 4:
+    GetLength
+Description:
+-   This case will only return the int value of the list's length
+-   In the driver test case, will print "Length is " + the length of the list
+*******************************************************************************
+
+*******************************************************************************
+Test Case 5:
+    MakeEmpty
+Description:
+-   This case will use a while loop and a temp pointer to parse through the list 
+        and delete each node until the list is empty
+-   In the driver test case, there will be no print statement
+*******************************************************************************
+
+*******************************************************************************
+Test Case 6:
+    PrintList
+Description:
+-   This case is used defined and implemented only in the listDriver.cpp file
+     This case will reset the list and then calculate the length of the list
+     Then it will parse through the list and print each item in the list with
+     a space in between each item 
+*******************************************************************************
+
+*******************************************************************************
+Test Case 7:
+    CountList
+Description:
+-   This case takes a list of items and returns the number of elements that are 
+        both greater, or less than or equal to the pivot number that is passed 
+        as a parameter in the function
+-   In the driver test case, will print "Testing CountLists" and then print the 
+        pivot number, followed by the number of elements that are less than or 
+        equal to the pivot number, followed by the number of elements that are
+        greater than the pivot number
+*******************************************************************************
+
+*******************************************************************************
+Test Case 8:
+    SplitList
+Description:
+-   This case takes a list of items and splits the list into two lists, based 
+     on the key that is passed as a parameter in the function.
+    Once split, the lists are then reversed and then printed out as list1 and 
+     list2
+-   In the driver test case, will print "Initial List: ", "list split at key: ", 
+     "list1: ", "list2: "
+*******************************************************************************
+
+*******************************************************************************
+Test Case 9:
+    reverseLists
+Description:
+-   This case takes a list of items and reverses the order of the list
+-   In the driver test case, there will be no print statement, but both list1 
+     and list2 will be reversed in the SplitList command/test case
+*******************************************************************************
+
+*******************************************************************************
+Test Case 10:
+    IsFull
+Description:
+-    This case tries to allocate memory for a new node, if it is successful, 
+        then the list is not full and will return false
+      If the memory allocation fails, then the list is full and will return true
+-   In the driver test case, will print "List is full" if the list is full
+    If the list is not full, the else statement will print "List is not full"
+*******************************************************************************
+
